@@ -1,0 +1,22 @@
+@import '@arcgis/core/assets/esri/themes/light/main.css';
+
+#root,
+html,
+body {
+  margin: 0;
+}
+.h3-mapview{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    margin-top: 15px;
+}
+arcgis-map {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  width: 90%;
+  height: 85vh;
+}
