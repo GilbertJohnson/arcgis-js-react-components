@@ -7,6 +7,9 @@ const Home = () => {
         <li>
             <Link to={'/mapview'} >Mapview</Link>
         </li>
+        <li>
+            <Link to={'/sceneview'}>SceneView</Link>
+        </li>
     </>
     
   )

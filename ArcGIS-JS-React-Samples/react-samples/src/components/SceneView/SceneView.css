@@ -1,0 +1,16 @@
+.h3-sceneview{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    margin-top: 15px;
+}
+arcgis-scene {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+    height: 85vh;
+    border: 2px solid gray
+  }
