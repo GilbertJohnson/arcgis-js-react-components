@@ -10,6 +10,9 @@ const Home = () => {
         <li>
             <Link to={'/sceneview'}>SceneView</Link>
         </li>
+        <li>
+            <Link to={'/tilelayer'} >Tile Layer</Link>
+        </li>
     </>
     
   )
