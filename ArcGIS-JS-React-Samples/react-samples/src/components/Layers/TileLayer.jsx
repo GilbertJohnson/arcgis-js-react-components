@@ -1,8 +1,9 @@
 import './TileLayer.css'
 import Map from '@arcgis/core/Map';
 import MapView from "@arcgis/core/views/MapView";
+import TileLayer from "@arcgis/core/layers/TileLayer"
 import { useRef, useEffect } from 'react';
-const TileLayer = () => {
+const TileLayerC = () => {
 
     const container = useRef();
     
@@ -40,4 +41,4 @@ const TileLayer = () => {
   )
 }
 
-export default TileLayer
+export default TileLayerC
