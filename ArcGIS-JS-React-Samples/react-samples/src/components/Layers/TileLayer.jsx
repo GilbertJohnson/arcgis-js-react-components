@@ -4,7 +4,7 @@ import MapView from "@arcgis/core/views/MapView";
 import { useRef, useEffect } from 'react';
 const TileLayer = () => {
 
-    const container = useRef<HTMLDivElement>(null);
+    const container = useRef();
     
     useEffect(()=>{
         if(!container.current) return;
@@ -21,7 +21,6 @@ const TileLayer = () => {
             container: container.current,
             map: map
         })
-        console.log(container)
         view.when(() => {
             housingLayer.when(() => {
               view.goTo(housingLayer.fullExtent).catch((error) => {
@@ -32,10 +31,10 @@ const TileLayer = () => {
           return()=>{
             if(view){view.destroy()};
           }
-    },[container])
+    },[])
   return (
   <>
-    <div ref={container.current} className='mapelement'></div>
+    <div ref={container} className='mapelement'></div>
   </>
     
   )
