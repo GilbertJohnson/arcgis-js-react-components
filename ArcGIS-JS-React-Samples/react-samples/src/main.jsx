@@ -5,6 +5,7 @@ import MapPage from './pages/MapPage'
 import Home from './pages/Home'
 import ScenePage from './pages/ScenePage'
 import TileLayerPage from './pages/TileLayerPage'
+import WidgetPage from './pages/WidgetPage'
 import './index.css'
 
 
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/mapview' element={<MapPage/>} />
         <Route path='/sceneview' element={<ScenePage/>} />
         <Route path='/tilelayer' element={<TileLayerPage />} />
+        <Route path='/widgetbmt' element={<WidgetPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

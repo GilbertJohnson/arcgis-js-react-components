@@ -13,6 +13,9 @@ const Home = () => {
         <li>
             <Link to={'/tilelayer'} >Tile Layer</Link>
         </li>
+        <li>
+          <Link to={'/widgetbmt'} >Widget - BasemapToggle</Link>
+        </li>
     </>
     
   )
