@@ -7,6 +7,7 @@ import ScenePage from './pages/ScenePage'
 import TileLayerPage from './pages/TileLayerPage'
 import WidgetPage from './pages/WidgetPage'
 import './index.css'
+import GraphicsPage from './pages/GraphicsPage';
 
 
 createRoot(document.getElementById('root')).render(
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/sceneview' element={<ScenePage/>} />
         <Route path='/tilelayer' element={<TileLayerPage />} />
         <Route path='/widgetbmt' element={<WidgetPage />} />
+        <Route path='/graphics' element={<GraphicsPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

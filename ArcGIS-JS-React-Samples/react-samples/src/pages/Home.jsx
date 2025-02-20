@@ -16,6 +16,9 @@ const Home = () => {
         <li>
           <Link to={'/widgetbmt'} >Widget - BasemapToggle</Link>
         </li>
+        <li>
+          <Link to={'/graphics'} >Graphics</Link>
+        </li>
     </>
     
   )
