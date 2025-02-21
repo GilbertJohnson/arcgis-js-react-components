@@ -19,7 +19,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/sceneview' element={<ScenePage/>} />
         <Route path='/tilelayer' element={<TileLayerPage />} />
         <Route path='/widgetbmt' element={<WidgetPage />} />
-        <Route path='/graphics' element={<GraphicsPage />} />
+        <Route path='/graphic' element={<GraphicsPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
