@@ -8,6 +8,7 @@ import TileLayerPage from './pages/TileLayerPage'
 import WidgetPage from './pages/WidgetPage'
 import './index.css'
 import GraphicsPage from './pages/GraphicsPage';
+import PopupPage from './pages/Popup'
 
 
 createRoot(document.getElementById('root')).render(
@@ -20,6 +21,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/tilelayer' element={<TileLayerPage />} />
         <Route path='/widgetbmt' element={<WidgetPage />} />
         <Route path='/graphic' element={<GraphicsPage />} />
+        <Route path='/popup' element={<PopupPage/>} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

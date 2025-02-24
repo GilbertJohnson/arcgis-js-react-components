@@ -19,6 +19,9 @@ const Home = () => {
         <li>
           <Link to={'/graphic'} >Graphics</Link>
         </li>
+        <li>
+          <Link to={'/popup'} >Popup with locator</Link>
+        </li>
     </>
     
   )
