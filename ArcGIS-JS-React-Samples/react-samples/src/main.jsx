@@ -9,7 +9,7 @@ import WidgetPage from './pages/WidgetPage'
 import './index.css'
 import GraphicsPage from './pages/GraphicsPage';
 import PopupPage from './pages/Popup'
-
+import ExpandPage from './pages/ExpandPage';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -22,6 +22,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/widgetbmt' element={<WidgetPage />} />
         <Route path='/graphic' element={<GraphicsPage />} />
         <Route path='/popup' element={<PopupPage/>} />
+        <Route path='/expand' element={<ExpandPage/>} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

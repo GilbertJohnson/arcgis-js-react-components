@@ -22,6 +22,9 @@ const Home = () => {
         <li>
           <Link to={'/popup'} >Popup with locator</Link>
         </li>
+        <li>
+          <Link to={'/expand'} >Expand Widget</Link>
+        </li>
     </>
     
   )
