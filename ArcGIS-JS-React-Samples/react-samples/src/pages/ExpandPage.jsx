@@ -1,10 +1,10 @@
 import '../styles/common.css'
-import Expand from '../components/Expand/Expand'
+import ExpandWidget from '../components/Expand/Expand'
 const ExpandPage = () => {
   return (
     <>
         <div className="heading">ExpandPage</div>
-        <Expand />
+        <ExpandWidget />
     </>
     
   )
