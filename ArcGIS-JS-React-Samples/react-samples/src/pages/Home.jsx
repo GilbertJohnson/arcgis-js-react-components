@@ -25,6 +25,9 @@ const Home = () => {
         <li>
           <Link to={'/expand'} >Expand Widget</Link>
         </li>
+        <li>
+          <Link to={'/popuptemplate'} >Popup Template</Link>
+        </li>
     </>
     
   )
