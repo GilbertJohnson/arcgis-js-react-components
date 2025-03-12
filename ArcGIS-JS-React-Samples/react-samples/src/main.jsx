@@ -11,6 +11,7 @@ import GraphicsPage from './pages/GraphicsPage';
 import PopupPage from './pages/Popup'
 import ExpandPage from './pages/ExpandPage';
 import PopupTemplate from './pages/PopupTemplate';
+import BlendPage from './pages/BlendPage';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -25,6 +26,8 @@ createRoot(document.getElementById('root')).render(
         <Route path='/popup' element={<PopupPage/>} />
         <Route path='/expand' element={<ExpandPage/>} />
         <Route path='/popuptemplate' element={<PopupTemplate/>} />
+        <Route path='/blend' element={<BlendPage/>} />
+
       </Routes>
     </BrowserRouter>
   </StrictMode>,

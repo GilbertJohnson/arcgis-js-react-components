@@ -29,6 +29,9 @@ const Home = () => {
           <li>
             <Link to={'/popuptemplate'} >Popup Template</Link>
           </li>
+          <li>
+            <Link to={'/blend'} >Blend intro</Link>
+          </li>
         </ul>
     </>
     
